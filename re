@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T01:43:39.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4gcjm-b-WCl8Qo1_tRfK" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-08T01:47:20.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="30IGIO7qW7KzAV5U58UW" version="20.8.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1194" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
             <mxPoint x="560" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l6P5U6btakmcl72szE5n-18" value="dp[y][x]=max({func(y,x-1),func(y-1,x),func(y-1,x-1)}" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="l6P5U6btakmcl72szE5n-18" value="dp[y][x]=max({func(y,x-1),func(y-1,x),func(y-1,x-1)}+b[y][x]" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="390" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l6P5U6btakmcl72szE5n-23" value="return dp[y][x]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
